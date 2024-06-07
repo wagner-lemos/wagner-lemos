@@ -1,16 +1,32 @@
-## Hi there 👋
+```php
+<?php
+namespace WagnerLemos;
 
-<!--
-**wagner-lemos/wagner-lemos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class About extends Me
+{
+    public function getPersonalInfo(): array
+    {
+        return [
+            'name'     => 'Wagner Lemos',
+            'position' => 'FullStack developer',
+            'location' => 'Florianópolis, Brazil 🇧🇷',
+            'email'    => 'wagnerlemosce@gmail.com',
+            'website'  => 'https://wagner-lemos.github.io'
+        ];
+    }
+    public function getSkills(): array
+    {
+        return [
+            'languages'  => ['PHP', 'JavaScript', 'TypeScript', 'Python', 'HTML', 'CSS'],
+            'frameworks' => [
+                              'Angular', 'React', 'Vue', 'Nest', 'Next', 'Nuxt', 'Laravel', 'CodeIgnite', 'Yii',
+                              'CakePHP', 'Phalcon', 'WordPress'
+                            ],
+            'databases'  => ['MySQL', 'PostgreSQL', 'MongoDB'],
+            'Design'     => ['PhotoShop', 'Figma']
+        ];
+    }
+}
+```
+---
+You can reach me via [Linkedin](https://www.linkedin.com/in/wagnerlemos).
