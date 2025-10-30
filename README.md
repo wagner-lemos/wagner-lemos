@@ -17,12 +17,12 @@ class About extends Me
     public function getSkills(): array
     {
         return [
-            'languages'  => ['PHP', 'JavaScript', 'TypeScript', 'Python', 'HTML', 'CSS'],
+            'languages'  => ['PHP', 'Golang', 'Kotlin', 'Python', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
             'frameworks' => [
                               'Angular', 'React', 'Vue', 'Nest', 'Next', 'Nuxt', 'Laravel', 'CodeIgnite', 'Yii',
                               'CakePHP', 'Phalcon', 'WordPress'
                             ],
-            'databases'  => ['MySQL', 'PostgreSQL', 'MongoDB'],
+            'databases'  => ['MySQL', 'PostgreSQL', 'MS SQL Serve', 'MongoDB'],
             'Design'     => ['PhotoShop', 'Figma']
         ];
     }
